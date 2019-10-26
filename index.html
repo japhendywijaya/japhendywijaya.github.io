@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+
+<html>
+    
+<head>
+    <title>To Do List App</title>
+    <link rel="stylesheet" href="assets/style1.css">
+</head>
+
+
+<body>
+    <div class="div-new-entry">
+        <h2>New to-do Entry </h2>
+        
+
+        <table>
+
+            <tr>    
+                <td class="table-label">Date <br>(mm/dd/yyyy) </td>
+                <td style='text-align: left;'><input type="date" id="inputDate" ></td>
+            </tr>
+            <tr>
+                <td class="table-label">Things to-Do</td>
+                <td><textarea class='textAreaGlobal' id="thingsToDo" rows="4" cols="50" wrap="soft" maxlength="300" placeholder="(max 300chars)"></textarea></td>
+            </tr>
+            <tr>
+                <td class="table-label">Notes</td>
+                <td><textarea class='textAreaGlobal' id="notes" rows="4" cols="50" wrap="soft" maxlength="300" placeholder="(max 300chars)"></textarea></td>
+            </tr>
+
+
+        </table>
+
+
+        <button id="buttonSubmit" style="float: right;">Submit</button>
+
+
+    </div>
+
+
+    <div class="div-to-do-list">
+        <table id="table1">
+            <thead><h2>to-do List </h2></thead> 
+        </table>
+        
+        </div>
+
+
+
+
+<script src="assets/function1.js"></script>
+</body>
+
+</html>

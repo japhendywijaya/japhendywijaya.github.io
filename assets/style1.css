@@ -1,0 +1,147 @@
+
+body
+{
+    background: grey;
+    background-blend-mode: lighten;
+}
+
+table, tr, td, th {  
+    border: 1px solid darkgrey;
+    text-align: center;
+    margin-top: -1px;
+}
+
+
+
+
+
+.div-new-entry, .div-to-do-list
+{
+    display:inline-block;
+    background: white;
+    margin-top: 40px;
+
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 10px;
+
+    color: olive;
+    font-size: 20px;
+
+    width : 500px;
+    min-height: 500px;
+
+
+}
+
+.div-new-entry
+{
+    margin-left: 10%;
+    margin-right: 10px;
+
+}
+
+
+.div-to-do-list
+{
+    margin-left: 10%;
+    margin-right: 2%;
+}
+
+
+.class-tr-header
+{
+    background: peachpuff;
+}
+
+
+
+/* child element of div-new-entry */
+
+#inputDate
+{
+    /* border: 1px solid red; */
+    border: none;
+    height: 50px;
+    width: 40%;
+
+    text-align: left;
+    text-indent: 5px;
+    font-size: 15px;
+}
+
+[type="date"] 
+{
+    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
+[type="date"]::-webkit-inner-spin-button 
+{
+    display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator 
+{
+    opacity: 0;
+}
+
+
+
+#buttonSubmit
+{
+    margin: 10% 40%;
+    height: 50px;
+    width: 100px;
+}
+
+.textAreaGlobal
+{
+    border: none;
+    margin-top: 2%;
+    resize: none;
+}
+
+.table-label
+{
+    width: 150px;
+}
+
+
+
+
+
+
+/* child element of div-to-do-list */
+.class-td-ttd
+{
+    /* word-wrap: break-word; */
+    width: 140px;
+    word-break: break-all;
+}
+
+
+.class-td-notes
+{
+    /* min-width: 300px; */
+    width: 320px;
+    text-indent: 10px;
+    text-align: left;
+    word-break: break-all;
+}
+
+
+.class-td-closer
+{
+    border:none;
+    cursor: pointer;
+    background-color: #eee;
+    font-size: smaller;
+    /* position: absolute;
+    top: 50%;
+    right: 0%;
+    padding: 12px 16px;
+    transform: translate(0%, -50%); */
+}
+
+
+
+
+
